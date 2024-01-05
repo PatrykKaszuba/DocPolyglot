@@ -9,6 +9,8 @@ To activate the virtual environment, enter: `source .venv/bin/activate`.
 Install a list of requirements specified in [requirements.txt](./requirements.txt):
 `python -m pip install -r requirements.txt`.
 
-Install `@recommended` VSCode extensions.
+Install xelatex: `sudo apt-get install texlive-xetex`
+
+Optionally install `@recommended` VSCode extensions.
 
 Run the application: `uvicorn main:app --reload`.
